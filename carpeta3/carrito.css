@@ -1,0 +1,251 @@
+.headerNavBar {
+    overflow: hidden;
+    background-color: #f9f9f9;
+    display: flex; 
+    align-items: center;
+    padding: 10px;
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: blueviolet;
+    font-family: 'Afacad';
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #FFE50E;
+}
+
+h1 {
+    margin: 0; 
+    padding: 0; 
+    height: 50px; 
+    line-height: 50px; 
+}
+
+h1 img {
+    height: 100%; 
+    justify-content: center;
+
+
+}
+
+h2 {
+    display: block;
+    color: blueviolet;
+    font-family: 'Afacad';
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header-image img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 50%;
+    height: auto; 
+}
+
+body {
+    background-color: #FA838F;
+    background-image: url('/IMG/fondoPag.jpg');     
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    height:200px;
+    width: 100%;
+    opacity:initial;
+}
+
+.DOMContentLoaded {
+    font-family: 'Afacad';
+    color: darkorchid;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+#productos {
+    font-family: Afacad;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top:80px;
+  }
+  
+.producto {
+    text-shadow: 1px 1px 1px #707070;
+    font-family: 'Afacad';
+    background-color: #fcec76;
+    border-radius: 20px;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px;
+    text-align: center;
+    width: 20%;
+    padding: 45px
+
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100px;
+  }
+
+  #productos .producto .boton-agregarCarrito  {
+    background-color: #13ACC6;
+    font-family: Afacad;
+    font-size: 15px;
+    border-radius: 20px;
+    color: #f9f9f9;
+    width: 35%;
+    text-align: center;
+    padding: 4px;
+    cursor: pointer;
+}   
+
+
+  .carrito {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    background: white;
+    box-shadow: -2px 0 5px rgba(0,0,0,.5);
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    stroke: #000;
+}
+
+.icon-cart:hover{
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container-icon{
+    position: relative;
+    cursor: pointer;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count-products {
+        position: absolute;
+        top: -10px; 
+        right: -10px; 
+        background-color: #000;
+        color: #fff;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.75rem;
+    }
+
+
+
+
+#carrito table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+#carrito td, #carrito th {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+
+#carrito tr:nth-child(even){background-color: #f2f2f2;}
+
+
+#carrito th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#carrito.btn-close button{
+    display: block;
+    cursor: pointer;
+    position:fixed;
+    background-color: #000;
+}
+
+#carrito {
+    background-color: #d32f2f; 
+}
+
+
+#carrito {
+    display: block; 
+    position: fixed;
+    right: 0;
+    top: 90px;
+    width: 500px; 
+    height: 100%;
+    background-color: #FA838F;
+    font-family: 'Afacad';
+    font-size: 18px;
+    overflow: auto; 
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    padding: 20px;
+}
+
+#carrito.visible-cart{
+    transform: translateX(0);
+}
+.visible-cart {
+    display: block;
+}
+
+.hidden-cart{
+    display:none;
+}
+
+#abrir-carrito{
+    cursor: pointer;
+}
+
+

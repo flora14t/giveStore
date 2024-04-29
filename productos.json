@@ -1,0 +1,17 @@
+[
+    {"id": "1", "imagen": "https://www.megga.com.ar/img_fotos_productos/10221126_02PackagingOneCharge.jpg" , "modelo": "Cargador ONE CHARGE micro USB", "marca": "Soul", "precio": 8500},
+    {"id": "2", "imagen": "https://www.megga.com.ar/img_fotos_productos/10221126_02PackagingOneCharge.jpg" , "modelo": "Cargador ONE CHARGE type C", "marca": "Soul" , "precio": 8500},
+    {"id": "3", "imagen": "https://www.megga.com.ar/img_fotos_productos/10221126_02PackagingOneCharge.jpg" , "modelo": "Cargador lightning (iPhone)", "marca": "Soul" , "precio": 8500},
+    {"id": "4", "imagen": "https://nisuta.com/files/products/NSCAUSMI1/grandes1280%20(1).jpg" , "modelo": "Cable micro USB", "marca": "Nisuta", "precio": 2600 },
+    {"id": "5", "imagen": "https://nisuta.com/files/products/NSCUSCAM2/grandes%20(1).jpg" , "modelo": "Cable type C", "marca": "Nisuta", "precio": 2800},
+    {"id": "6", "imagen": "https://nisuta.com/files/products/NSCAUSIP1/grandes1280%20(1).jpg" , "modelo": "Cable lightning", "marca": "Nisuta" , "precio": 3000},
+    {"id": "7", "imagen": "https://hydroglass.com.ar/wp-content/uploads/2023/11/Matte-1-1024x1024.png" , "modelo": "Protector de pantalla", "marca": "Hydroglass" , "precio":  8000 },
+    {"id": "8", "imagen":  "https://www.megga.com.ar/img_fotos_productos/09181703_SelfieStick0004H1002.jpg", "modelo": "Selfie Stick H100", "marca": "Soul", "precio": 15000},
+    {"id": "9", "imagen": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/319b330a-29c2-452b-8be8-77edee83c7e6.9e1ae77f465e435d2267660d02f8334a.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" , "modelo": "Aro de luz - 3 intensidades", "marca": "Netmak" , "precio": 18000},
+    {"id": "10", "imagen": "https://ar.oneclickstore.com/wp-content/uploads/2020/12/JBLGO3BLUAM_G001.jpg" , "modelo": "Parlante GO 3", "marca": "JBL" , "precio":  120000 },
+    {"id": "11", "imagen": "https://www.megga.com.ar/img_fotos_productos/06281423_ParlanteThunderBoltXL600Mesadetrabajo1.jpg" , "modelo": "Parlante x600", "marca": "Soul" , "precio":  86000 },
+    {"id": "12", "imagen": "https://acdn.mitiendanube.com/stores/236/748/products/2c9f9b3ef64833e5a6be0ee7bb3156501-b6665d6c3fee2f523716534026791976-1024-1024.jpg" , "modelo": "Turbo Power 30W", "marca": "MOTOROLA", "precio":  65000},
+    {"id": "13", "imagen": "https://www.heavenimagenes.com/heavencommerce/0f0b49b9-7465-4399-a1a2-17a5aa644970/images/v2/JBL/3910_medium.jpg" , "modelo": "Auriculares Tune 110", "marca": "JBL", "precio": 12500},
+    {"id": "14", "imagen": "https://dcdn.mitiendanube.com/stores/001/637/273/products/soul-s600-r1-ceb9cfc155bc628b1f16751757100271-1024-1024.jpg" , "modelo": "Auriculares Inalambricos S600", "marca": "Soul", "precio":  16800},
+    {"id": "15", "imagen": "https://nisuta.com/files/products/NSFU53UQPC/grandes1280.jpg" , "modelo": "Fuente de carga DUAL TYPE-c + USB 3.0", "marca": "Nisuta", "precio": 18500}
+]

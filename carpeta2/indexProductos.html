@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> #GIVE Store </title>
+    <link rel="icon" href="/IMG/logo.png" type="image/png">
+    <link rel="stylesheet" href="/carpeta2/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <div class="banner">
+<!--         <img src="/IMG/banner.png" alt="bannerPcipal"> -->
+    </div>
+    <div class="headerNavBar">
+        <h1>
+            <img src="/IMG/logo.png" alt="logo">
+        </h1>
+        <ul class="navbar">
+            <li>
+                <a href="/carpeta1/indexNosotros.html" class="nav_a"> N O S O T R O S</a>
+            </li>
+            <li>
+                <a href="/carpeta2/indexProductos.html" class="nav_a">P R O D U C T O S</a>
+            </li>
+
+
+            <li>
+                <div class="container-icon">
+                    <div class="container-cart-icon">
+                        <a href="/carpeta3/carrito.html" class="nav_a">    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/>
+                            </svg>
+                        </a>
+                        <div class="count-products">
+                            <span id="contador-productos">0</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+            </li>
+            
+        </ul>  
+
+    </div>
+
+
+    <div id="carrito" class="container-cart-products hidden-cart">
+  
+        <button id="cerrarCarrito" style="float:right;">&times;</button>
+        <h2>Carrito</h2>
+    </div>
+
+    <div id="productos" class="container-items">
+    </div>
+
+    <div id="productList"></div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="/carpeta2/productos.js"></script>
+
+
+
+</body>
+</html>

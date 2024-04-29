@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Método de pago </title>
+    <link rel="stylesheet" href="pago.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="/IMG/logo.png" type="image/png">
+
+    
+</head>
+<body>
+    <div class="headerNavBar">
+        <h1>
+            <img src="/IMG/logo.png" alt="logo">
+        </h1>
+        <ul class="navbar">
+            <li>
+                <a href="/carpeta1/indexNosotros.html" class="nav_a"> N O S O T R O S</a>
+            </li>
+            <li>
+                <a href="/carpeta2/indexProductos.html" class="nav_a">P R O D U C T O S</a>
+            </li>
+
+            <li>
+                <div class="container-icon" >
+                    <div class="container-cart-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/>
+                        </svg>
+                        <div class="count-products">
+                            <span id="contador-productos">0</span>
+                        </div>
+                    </div>
+                </div>
+                <a href="/carpeta3/carrito.html" class="nav_a"></a>
+            </li>
+            
+        </ul>  
+
+    </div>
+
+    <h2>Selecciona tu método de pago</h2>
+    <div class="contenedor-pagos">
+        <div class="metodo-pago" onclick="location.href='mercadoPago.html';">
+            <img src="https://i0.wp.com/www.sitemarca.com/wp-content/uploads/2020/04/LOGO-CODOS-MP-03-e1586107793714.png" alt="Mercado Pago" /> 
+            <p>Mercado Pago</p>
+        </div>
+        <div class="metodo-pago" onclick="location.href='debito.html';">
+            <img src="https://cdn-icons-png.flaticon.com/512/1087/1087080.png" alt="Tarjetas" /> 
+            <p>Tarjeta</p>
+        </div>
+        <div class="metodo-pago" onclick="location.href='credito.html';">
+            <img src="https://media.istockphoto.com/id/1452706695/es/vector/icono-de-transferencia-de-dinero-en-vector-logotipo.jpg?s=612x612&w=0&k=20&c=BHyuGRfstxA3u1b-H69PY2IhrN4m4b4N0xZ7T-JNy9c=" alt="Trasnferencia" /> 
+            <p>Transferencia</p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="/pago/pago.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,334 @@
+.headerNavBar {
+    overflow: hidden;
+    background-color: #f9f9f9;
+    display: flex; 
+    align-items: center;
+    padding: 10px;
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: blueviolet;
+    font-family: 'Afacad';
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #FFE50E;
+}
+
+h1 {
+    margin: 0; 
+    padding: 0; 
+    height: 50px; 
+    line-height: 50px; 
+}
+
+h1 img {
+    height: 100%; 
+    justify-content: center;
+
+
+}
+
+#iconoCarrito {
+    display: inline-block;
+    width: 50px;
+    height: 50px; 
+    right: 0;
+    top: 50%;
+    justify-content: space-between;
+
+}
+
+h1 {
+    margin: 0; 
+    padding: 0; 
+    height: 50px; 
+    line-height: 50px; 
+}
+
+h1 img {
+    height: 100%; 
+    justify-content: center;
+
+
+}
+
+h2 {
+    display: block;
+    color: blueviolet;
+    font-family: 'Afacad';
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header-image img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 50%;
+    height: auto; 
+}
+
+body {
+    background-color: #FA838F;
+    background-image: url('/IMG/fondoPag.jpg');     
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    height:200px;
+    width: 100%;
+    opacity:initial;
+}
+
+.DOMContentLoaded {
+    font-family: 'Afacad';
+    color: darkorchid;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+#productos {
+    font-family: Afacad;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top:80px;
+  }
+  
+.producto {
+    text-shadow: 1px 1px 1px #707070;
+    font-family: 'Afacad';
+    background-color: #fcec76;
+    border-radius: 20px;
+    color: #272727;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin: 10px;
+    text-align: center;
+    width: 20%;
+    padding: 45px
+
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100px;
+  }
+  
+#productos .producto .boton-agregarCarrito  {
+    background-color: #13ACC6;
+    font-family: Afacad;
+    font-size: 15px;
+    border-radius: 20px;
+    color: #f9f9f9;
+    width: 35%;
+    text-align: center;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.swal {
+    font-family: Afacad;
+}
+
+
+
+.carrito {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100px;
+    height: 100%;
+    background: white;
+    box-shadow: -2px 0 5px rgba(0,0,0,.5);
+    overflow-y: auto;
+    transform: translateX(100%);
+    transition: transform .3s ease;
+    cursor: pointer;
+}
+
+#carrito{
+    position: fixed;
+    right: 0;
+    top: 300px;
+    width: 300px;
+    height: 100%;
+    background-color: #0CC0DF;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+
+
+}
+
+#carrito.visible {
+    transform: translateX(0);
+}
+
+.icon-cart{
+    width: 40px;
+    height: 40px;
+    stroke: #000;
+}
+
+.icon-cart:hover{
+    cursor: pointer;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container-icon{
+    position: relative;
+}
+
+.count-products{
+    position: absolute;
+    top: 55%;
+    right: 0;
+
+    background-color: #000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+#contador-productos{
+    font-size: 12px;
+}
+
+.container-cart-products-visible-cart{
+    position: absolute;
+    top: 50px;
+    right: 0;
+
+    background-color: #fff;
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+    
+}
+
+.cart-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+
+.info-cart-product{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+}
+
+.titulo-producto-carrito{
+    font-size: 20px;
+}
+
+.precio-producto-carrito{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cantidad-producto-carrito{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.icon-close{
+    width: 25px;
+    height: 25px;
+}
+
+.icon-close:hover{
+    stroke: red;
+    cursor: pointer;
+}
+
+.cart-total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.cart-total h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.total-pagar{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.hidden-cart{
+    display: none;
+}
+
+
+.contenedor-pagos {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.metodo-pago {
+    top: 150px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    width: 30%;
+    text-align:center;
+    cursor: pointer;
+    font-family: 'Afacad';
+    font-size: 20px;
+    margin-top:60px;
+}
+
+.metodo-pago img {
+    width: 100px;
+    height: auto;
+}
+
+.metodo-pago p {
+    margin-top: 10px;
+}
